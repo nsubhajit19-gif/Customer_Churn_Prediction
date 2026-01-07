@@ -1,0 +1,48 @@
+# ===============================
+# Python cache & compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+
+# ===============================
+# Virtual environments
+# (Never push virtual env to GitHub)
+# ===============================
+venv/
+env/
+.venv/
+ins_venv/
+
+# ===============================
+# Environment variables
+# (Secrets, API keys, configs)
+# ===============================
+.env
+
+# ===============================
+# Jupyter Notebook checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# IDE / Code editor settings
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Log files
+# ===============================
+*.log
+
+# ===============================
+# Streamlit secrets
+# ===============================
+.streamlit/secrets.toml
